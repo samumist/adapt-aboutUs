@@ -3,7 +3,7 @@
 {{#each this}}
     {{#if _link}}
         <a href="{{{_link}}}" class="icon icon-{{lowerCase _service}}"
-        target="_blank" title="Follow us on {{{_service}}}"></a>
+          target="_blank" title="{{#if _serviceName}} 关注我们: {{{_serviceName}}} {{else}} Follow us on {{{_service}}} {{/if}}"></a>
     {{/if}}
 {{/each}}
 </div>
