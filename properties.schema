@@ -40,7 +40,7 @@
                         "required":false,
                         "default": "",
                         "title":"Name of social networking service",
-                        "inputType": {"type": "Select", "options": ["Sina-weibo", "Tengxun-weibo", "Wechat", "QQ", "Youku", Twitter", "Facebook", "LinkedIn", "GooglePlus", "YouTube", "Pinterest", "Instagram", "Vimeo", "flickr", "Picasa", "Lanyrd", "DeviantArt", "Steam", "Blogger", "Tumblr", "SoundCloud", "XING", "Feed"]}
+                        "inputType": {"type": "Select", "options": ["Sina-weibo", "Tengxun-weibo", "Wechat", "QQ", "Youku", "Twitter", "Facebook", "LinkedIn", "GooglePlus", "YouTube", "Pinterest", "Instagram", "Vimeo", "flickr", "Picasa", "Lanyrd", "DeviantArt", "Steam", "Blogger", "Tumblr", "SoundCloud", "XING", "Feed"]}
                       },
                       "_serviceName": {
                         "type": "string",
