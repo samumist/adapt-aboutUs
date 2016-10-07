@@ -1,9 +1,9 @@
 {
   "name": "adapt-aboutUs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "framework": "^2.0.0",
-  "homepage": "https://github.com/chucklorenz/adapt-aboutUs",
-  "issues": "https://github.com/chucklorenz/adapt-aboutUs/issues",
+  "homepage": "https://github.com/samumist/adapt-aboutUs",
+  "issues": "https://github.com/samumist/adapt-aboutUs/issues",
   "authors": [
     "Chuck Lorenz <chucklorenz@yahoo.com>"
   ],

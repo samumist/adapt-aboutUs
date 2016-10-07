@@ -22,7 +22,8 @@
 	}],
 	"_socialLinks": [{
 		"_service": "sina-weibo",
-		"_serviceName": "新浪微博"
+		"_serviceName": "新浪微博",
+        "_link": "http://www.sina.com"
 	}, {
 		"_service": "Twitter",
 		"_link": "http://www.twitter.com"
