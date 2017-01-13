@@ -19,6 +19,83 @@
               "type":"object",
               "required":false,
               "properties":{
+                "title": {
+                  "type":"string",
+                  "required":true,
+                  "title":"Drawer title",
+                  "default": "About Us",
+                  "inputType": "Text",
+                  "translatable": true
+                },
+                "description": {
+                  "type":"string",
+                  "required":true,
+                  "title":"Drawer description",
+                  "inputType": "Text",
+                  "translatable": true
+                },
+                "headline": {
+                  "type":"string",
+                  "required":false,
+                  "default": "",
+                  "title":"Organization name or headline",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": true
+                },
+                "_graphic": {
+                  "type":"object",
+                  "required":false,
+                  "title": "Optional graphic",
+                  "properties":{
+                    "alt": {
+                      "type":"string",
+                      "required":false,
+                      "default": "",
+                      "title": "Alt text",
+                      "inputType": "Text",
+                      "validators": [],
+                      "help": "Text for the alt attribute of this image",
+                      "translatable": true
+                    },
+                    "src": {
+                      "type":"string",
+                      "required":false,
+                      "default": "",
+                      "inputType": "Asset:image",
+                      "validators": []
+                    }
+                  }
+                },
+                "_aboutUsItems": {
+                  "type":"array",
+                  "required":false,
+                  "title":"Text items",
+                  "items": {
+                    "type":"object",
+                    "required":true,
+                    "properties":{
+                      "title": {
+                          "type":"string",
+                          "required":false,
+                          "default": "",
+                          "title":"Item title",
+                          "inputType": "Text",
+                          "validators": [],
+                          "translatable": true
+                      },
+                      "description": {
+                        "type":"string",
+                        "required":false,
+                        "default": "",
+                        "title":"Item description",
+                        "inputType": "TextArea",
+                        "validators": [],
+                        "translatable": true
+                      }
+                    }
+                  }
+                },
                 "_socialLinks": {
                   "type":"array",
                   "required":false,
@@ -52,83 +129,6 @@
                       }
                     }
                   }
-                },
-                "_aboutUsItems": {
-                  "type":"array",
-                  "required":false,
-                  "title":"Text items",
-                  "items": {
-                    "type":"object",
-                    "required":true,
-                    "properties":{
-                      "description": {
-                        "type":"string",
-                        "required":false,
-                        "default": "",
-                        "title":"Item description",
-                        "inputType": "Text",
-                        "validators": [],
-                        "translatable": true
-                      },
-                      "title": {
-                        "type":"string",
-                        "required":false,
-                        "default": "",
-                        "title":"Item title",
-                        "inputType": "Text",
-                        "validators": [],
-                        "translatable": true
-                      }
-                    }
-                  }
-                },
-                "_graphic": {
-                  "type":"object",
-                  "required":false,
-                  "title": "Optional graphic",
-                  "properties":{
-                    "alt": {
-                      "type":"string",
-                      "required":false,
-                      "default": "",
-                      "title": "Alt text",
-                      "inputType": "Text",
-                      "validators": [],
-                      "help": "Text for the alt attribute of this image",
-                      "translatable": true
-                    },
-                    "src": {
-                      "type":"string",
-                      "required":false,
-                      "default": "",
-                      "inputType": "Asset:image",
-                      "validators": []
-                    }
-                  }
-                },
-                "headline": {
-                  "type":"string",
-                  "required":false,
-                  "default": "",
-                  "title":"Organization name or headline",
-                  "inputType": "Text",
-                  "validators": [],
-                  "translatable": true
-                },
-                "description": {
-                  "type":"string",
-                  "required":true,
-                  "title":"Drawer description",
-                  "inputType": "Text",
-                  "translatable": true
-                },
-                "title": {
-                  "type":"string",
-                  "required":true,
-                  "title":"Drawer title",
-                  "default": "About Us",
-                  "inputType": "Text",
-                  "translatable": true
                 }
               }
             }
